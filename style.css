@@ -1,0 +1,108 @@
+body {
+        background-image: url("medias/background\ 6.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1,);
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    align-items: right;
+}
+.navbar_icons {
+    width: 50px;
+    cursor: pointer;
+}
+.navbar ul {
+    margin-left: 50px;
+    display: flex;
+    list-style: none;
+}
+.navbar ul a {
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: maroon;
+    text-decoration: 0;
+    position: relative;
+}
+.navbar ul a::after {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: 0.1s ease-out;
+}
+
+.reseau {
+    display: flex;
+    justify-content: flex-end; /* Aligner les éléments vers la droite */
+    gap: 50px; /* Espacement entre les icônes */
+    margin-top: 10px; /* Marge supérieure pour séparer du contenu précédent */
+}
+
+.reseau a img {
+    width: 20px; /* Définir la largeur des icônes */
+    height: 20px; /* Définir la hauteur des icônes */
+}
+
+.box {
+    text-align: center; /* Centrer le contenu horizontalement */
+    max-width: 250px; /* Définir une largeur maximale pour la boîte */
+    margin: 0 auto; /* Centrer la boîte horizontalement */
+}
+
+.box img {
+    max-width: 80%; /* Ajuster la largeur de l'image à la largeur de la boîte */
+    height: auto; /* Conserver le ratio hauteur/largeur de l'image */
+}
+.video-container {
+    display: flex;
+    justify-content: flex-end; /* Centrer horizontalement */
+    margin-bottom: 20px; /* Espacement entre la vidéo et les éléments suivants */
+}
+.travaux {
+    text-align: center;
+}
+
+.realisations-list {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement les éléments */
+    align-items: center; /* Centrer verticalement les éléments */
+    flex-wrap: wrap; /* Pour gérer les éléments sur plusieurs lignes si nécessaire */
+    gap: 20px; /* Espacement entre les éléments */
+}
+.realisations-list a {
+    color: black;
+}
+.box {
+    text-align: left; /* Alignement du contenu de la boîte */
+    max-width: 300px; /* Largeur maximale des boîtes */
+}
+
+.box h3 {
+    margin: 10px 0; /* Espacement pour le titre */
+}
+
+.box img {
+    max-width: 100%; /* Ajuster la largeur de l'image à l'intérieur de la boîte */
+    height: auto; /* Conserver le ratio hauteur/largeur de l'image */
+}
+.footer a {
+    text-align: center;
+    color: #fff;
+}
